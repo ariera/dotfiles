@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/ariera/development/Rails/orly/vagrant/cookbooks/orly/recipes'
+let g:netrw_dirhist_2='/Users/ariera/development/Rails/orly/vagrant/cookbooks/orly'
+let g:netrw_dirhist_3='/Users/ariera/development/Rails/orly/vagrant/cookbooks'
+let g:netrw_dirhist_4='/Users/ariera/development/Rails/orly/vagrant/cookbooks/rvm'
+let g:netrw_dirhist_5='/Users/ariera/development/Rails/orly/vagrant/cookbooks/rvm/recipes'
+let g:netrw_dirhist_6='/Users/ariera/development/Rails/orly/vagrant'
+let g:netrw_dirhist_7='/Users/ariera/development/Rails/orly'
