@@ -7,6 +7,10 @@
 :map <C-L> :bn<Esc>
 :set winminheight=0
 :map <C-P> :CommandT<Esc>
+:set listchars=tab:▸·,nbsp:☠
+au BufRead,BufNewFile *.hamlc set ft=haml
+":set listchars=tab:▸·,eol:¬,nbsp:☠
+
 
 " Toggle auto-indenting for code paste
 " http://vim.wikia.com/wiki/VimTip906
@@ -29,3 +33,4 @@
 "   simply an OS-wide paste key-combo (Ctrl+insert is the corresponding
 "   'copy')
 "
+
