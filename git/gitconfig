@@ -1,0 +1,27 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+  cp = cherry-pick
+  dc = diff --cached
+  meh = commit --amend
+  wdiff = diff --word-diff=color
+  wshow = show --word-diff=color
+  lasttag = describe --tags --abbrev=0
+  branches = branch -vv
+  wip = !git add -A && git commit -m "WIP"
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[user]
+	name = Alejandro Riera
+	email = ariera@gmail.com
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[commit]
+  template = /Users/alejandroriera/dotfiles/git/commit-msg-template
+[core]
+  editor = sublime -n -w $1:2 # open sublime with cursor on the second line
+

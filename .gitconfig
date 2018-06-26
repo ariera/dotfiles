@@ -1,9 +1,0 @@
-[alias]
-	st = status
-	co = checkout
-	ci = commit
-	br = branch
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-[user]
-	name = Alejandro Riera
-	email = ariera@gmail.com

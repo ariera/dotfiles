@@ -1,0 +1,5 @@
+backups:
+  backup_monitor_url: "https://it-panel.embo.org"
+  # backup_monitor_url: "http://localhost:8000"
+  username: "mainar"
+  hostname: "mac-embo156"
